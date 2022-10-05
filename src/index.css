@@ -1,13 +1,187 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.header {
+  background-color: #d9d9d9;
+  padding-top: 10px;
+}
+.navigation_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header_logo{
+  position: relative;
+  bottom: 15px;
+  height: 50px;
+  width: 50px;
+  background-image: url(./logo.png);
+  background-size: 50px 50px;
+}
+.entrance_btn {
+  width: 130px;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  margin-right: 20%;
+}
+.entrance_btn:active {
+  background-color: rgb(144, 144, 144);
+}
+#entrance_btn_link {
+  text-decoration: none;
+  color: #000;
+}
+.navigation_list {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*width: 45%;*/
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation_pages {
+  margin-left: 100px;
+  height: 50px;
+}
+.nav_pages_link {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: rgb(0, 0, 0);
+}
+.nav_pages_link:hover {
+  color: rgb(70, 122, 122);
+  text-decoration: underline;
+}
+.navigation_pages:hover {
+  color: aliceblue;
+}
+.search_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.header_search_bar {
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+.search_btn {
+  margin-left: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: #f5f5f5;
+  background-image: url(./loupe.png);
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 6px 6px;
+}
+.search_btn:active {
+  box-shadow: 9px 6px 6px -1px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 9px 6px 6px -1px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 9px 6px 6px -1px rgba(0, 0, 0, 0.36);
+}
+
+/*registration box*/
+
+#main_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: center;
+
+  height: 100%;
+  width: 100%;
+}
+.registration_type_list {
+  width: 40%;
+  font-size: 19px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.registration_type_item {
+  display: contents;
+  list-style-type: none;
+}
+.registration_type_item_link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.registration_type_item_link:hover {
+  color: rgb(70, 122, 122);
+  text-decoration: underline;
+}
+#registration_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  font-weight: 800;
+  font-size: 23px;
+}
+#registration_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  padding: 5px;
+
+  margin-top: 25px;
+  margin-bottom: 100px;
+  height: 350px;
+  width: 500px;
+}
+#form_box {
+  width: 75%;
+  /*margin-top: 50px;*/
+}
+.regisrtation_form {
+  margin: 30px 10px;
+  height: 30px;
+  width: 100%;
+}
+#showPass_box {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  margin-left: 10px;
+}
+#showPass_box_checkbox {
+  width: 20px;
+  height: 20px;
+}
+#showPass_box_text {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#submit_bttn {
+  width: 105px;
+  background-color: rgb(255, 255, 255);
+  font-weight: 800;
+  margin: 20px;
+}
+#submit_bttn:active {
+  background-color: rgb(255, 255, 126);
+  border-color: rgb(255, 255, 126);
 }
