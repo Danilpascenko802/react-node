@@ -1,4 +1,3 @@
-import "./App.css";
 import firstF from "./firstfunction";
 function App() {
   return (
