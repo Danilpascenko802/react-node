@@ -1,7 +1,7 @@
 import React from "react";
 function Registration() {
   return (
-    <div id="main_box">
+    <div id="registration_main_box">
       <div id="registration_title" className="text">
         Registration
       </div>

@@ -1,8 +1,8 @@
 import React from "react";
-
+import { Nav, NavMenu, NavLink } from "../style/headerStyle";
 function Header() {
-  return (
-    <div className="header">
+  return ( <div></div>
+    /* <div className="header">
       <div className="navigation_box">
         <ul className="navigation_list">
           <li id="header_logo" className="navigation_pages"></li>
@@ -36,7 +36,23 @@ function Header() {
         />
         <button className="search_btn"></button>
       </div>
-    </div>
+    </div> */
+    /*<>
+      <Nav>
+        <NavMenu>
+          <NavLink to="/mainPage.jsx" activestyle="true">
+            Main Page
+          </NavLink>
+          <NavLink to="/masters.jsx" activestyle="true">
+            Мастера
+          </NavLink>
+          <NavLink to="../contacts.jsx" activestyle="true">
+            Контакы
+          </NavLink>
+        </NavMenu>
+      </Nav>
+    </>*/
+    
   );
 }
 
