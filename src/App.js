@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/header";
+<<<<<<< HEAD
 /*import Mainpage from "./components/mainPage";*/
 import { Outlet } from "react-router-dom";
 /*import Registration from "./components/registration"; */
@@ -12,26 +13,26 @@ import { Outlet } from "react-router-dom";
   Redirect,
 } from "react-router-dom";*/
 /*import Contacts from "./components/contacts";*/
+=======
+import Home from './pages/Home';
+import About from './pages/About';
+import Masters from './pages/Masters';
+import { Routes, Route } from 'react-router-dom';
+
+>>>>>>> origin/fix-router
 function App() {
   return (
     <>
       <Header />
-      <Outlet />
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/masters' element={<Masters/>}/>
+      </Routes>
     </>
   );
 }
 
 export default App;
 
-/*<Route path="/components/contacts.jsx" component={<Contacts />} />*/
 
-/*<>
-    {}
-    <Router>
-      <Switch>
-        <Route exact path="/" component={<Mainpage />} />
-        <Route path="/components/masters.jsx" component={<Masters />} />
-        <Redirect to="/" />
-      </Switch>
-    </Router>
-  </> */
