@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/header";
 /*import Mainpage from "./components/mainPage";*/
-import {Outlet} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 /*import Registration from "./components/registration"; */
 /*import Masters from "./components/masters";*/
 /*import { BrowserRouter as Router, Routes, Route } from "react-router-dom";*/
