@@ -35,7 +35,7 @@ function Header() {
         <input
           id="search_box_bar"
           type="text"
-          placeholder="  Найди то что ищешь"
+          placeholder="Найди то что ищешь"
         />
         <button id="search_btn"></button>
       </div>

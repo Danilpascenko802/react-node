@@ -13,8 +13,11 @@ ul {
   display: flex;
 }
 #navigation {
-  padding-top: 50px;
-  padding-left: 100px;
+  margin-top: 50px;
+  margin-left: 150px;
+
+  font-weight: 700;
+  font-size: 20px;
 
   width: 600px;
   display: flex;
@@ -23,10 +26,18 @@ ul {
   list-style: none;
 }
 #navigation_logo {
-  background-image: "../img/Logo.png";
-  width: 50px;
-  height: 15px;
-  background-color: azure;
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  top: 35px;
+  left: 50px;
+
+  background-image: url(../img//logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  border-radius: 5px;
 }
 .navigation_item {
 }
@@ -35,22 +46,85 @@ ul {
   color: rgb(57, 57, 57);
 }
 .navigation_item_link:hover {
-  color: black;
+  color: rgb(115, 0, 0);
 }
 
 #enter_button {
-  margin-top: 40px;
+  margin-top: 35px;
   margin-left: 30%;
   width: 140px;
-  height: 35px;
+  height: 50px;
   border-radius: 5px;
   border: none;
+  font-size: 20px;
   font-weight: bold;
 }
+#enter_button:hover {
+  color: rgb(115, 0, 0);
+}
 #search_box {
-  display: contents;
+  display: flex;
+  justify-content: center;
+  margin-top: 165px;
 }
 #search_box_bar {
+  height: 35px;
+  width: 600px;
+  font-size: 20px;
+
+  padding-left: 30px;
+  border: none;
+  border-radius: 5px;
 }
 #search_btn {
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+
+  background-image: url(../img/loupe.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 5px;
+  border: none;
 }
+/*-----HEADER------*/
+
+/*-----CONTACTS----*/
+#contacts {
+}
+.return_button {
+}
+.contacts_title {
+}
+
+.messangers_box {
+}
+
+.messangers_box_item {
+}
+.messangers_box_item_icon {
+}
+
+#messangers_box_item_email {
+}
+#messangers_box_item_email_icon {
+}
+
+#messangers_box_item_telegram {
+}
+#messangers_box_item_telegram_icon {
+}
+
+#messangers_box_item_viber {
+}
+#messangers_box_item_viber_icon {
+}
+
+#messangers_box_item_whatsapp {
+}
+#messangers_box_item_whatsapp_icon {
+}
+
+/*-----CONTACTS----*/
