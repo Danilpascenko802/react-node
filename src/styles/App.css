@@ -1,3 +1,56 @@
-.button1{
-    background-color: blue;
+body,
+html,
+ul {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  background-color: rgb(201, 201, 201);
+  height: 300px;
+  width: 100%;
+}
+#navigation_wrapper {
+  display: flex;
+}
+#navigation {
+  padding-top: 50px;
+  padding-left: 100px;
+
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  list-style: none;
+}
+#navigation_logo {
+  background-image: "../img/Logo.png";
+  width: 50px;
+  height: 15px;
+  background-color: azure;
+}
+.navigation_item {
+}
+.navigation_item_link {
+  text-decoration: none;
+  color: rgb(57, 57, 57);
+}
+.navigation_item_link:hover {
+  color: black;
+}
+
+#enter_button {
+  margin-top: 40px;
+  margin-left: 30%;
+  width: 140px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+#search_box {
+  display: contents;
+}
+#search_box_bar {
+}
+#search_btn {
 }
