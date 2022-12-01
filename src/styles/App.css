@@ -93,27 +93,47 @@ ul {
 
 /*-----CONTACTS----*/
 #contacts {
-margin-left: 50px;
+  margin-left: 50px;
 }
 .return_button::before {
-  content: "< ";
+  content: "<";
+  margin-right: 10px;
 }
-.return_button{
-border: none;
-background-color: rgba(0, 0, 0, 0);
-font-size: 20px;
-font-weight: bold;
-margin-top: 25px;
+.return_button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 25px;
+  opacity: 80%;
 }
 .contacts_title {
+  margin-top: 70px;
 }
 
 .messangers_box {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
 }
 
 .messangers_box_item {
+  border: none;
+  border-radius: 5%;
+
+  display: flex;
+  flex-direction: column;
 }
 .messangers_box_item_icon {
+  background-color: rgb(201, 201, 201);
+  height: 200px;
+  width: 350px;
+  border: none;
+  border-radius: 5%;
+}
+.messanger_box_item_text {
+  margin-top: 15px;
+  text-align: center;
 }
 
 #messangers_box_item_email {
@@ -136,4 +156,53 @@ margin-top: 25px;
 #messangers_box_item_whatsapp_icon {
 }
 
+#contacts_contactUsForm {
+  background-color: rgb(201, 201, 201);
+  border: none;
+  border-radius: 10px;
+
+  position: relative;
+  /*
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  */
+  width: 40%;
+  height: 350px;
+}
+.contacts_contactUsForm_title {
+  position: absolute;
+  top: 30px;
+}
+.contacts_contactUsForm_inputbox {
+  display: flex;
+  flex-direction: column;
+}
+.contacts_contactsUsForm_labelinput {
+  border-radius: 5px;
+  border: none;
+}
+#contacts_contactsusform_label1 {
+}
+#contacts_contactsusform_label2 {
+}
+#contacts_contactsusform_label3 {
+}
+#contacts_contactsUsForm_labelinput1 {
+}
+#contacts_contactsUsForm_labelinput2 {
+}
+#contacts_contactsUsForm_labelinput3 {
+}
+# .contactUsForm_button {
+  background-color: #fff;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+
+  position: absolute;
+  top: 300px;
+  left: 150px;
+}
 /*-----CONTACTS----*/

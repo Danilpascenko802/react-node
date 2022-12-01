@@ -7,52 +7,62 @@ function Contacts() {
       <h1 className="contacts_title">Наши контакты</h1>
       <ul className="messangers_box">
         <li className="messangers_box_item" id="messangers_box_item_email">
-          <img
+          <div
             src="."
             alt="Email icon"
             className="messangers_box_item_icon"
             id="messangers_box_item_email_icon"
-          />
-          example@gmail.com
+          ></div>
+          <span className="messanger_box_item_text"> example@gmail.com</span>
         </li>
         <li className="messangers_box_item" id="messangers_box_item_telegram">
-          <img
+          <div
             src="."
             alt="Telegram icon"
             className="messangers_box_item_icon"
             id="messangers_box_item_telegram_icon"
-          />
-          @example
+          ></div>
+          <span className="messanger_box_item_text"> @example</span>
         </li>
         <li className="messangers_box_item" id="messangers_box_item_viber">
-          <img
+          <div
             src="."
             alt="viber icon"
             className="messangers_box_item_icon"
             id="messangers_box_item_viber_icon"
-          />
-          +380 000 00 00
+          ></div>
+          <span className="messanger_box_item_text"> +380 000 00 00</span>
         </li>
         <li className="messangers_box_item" id="messangers_box_item_whatsapp">
-          <img
+          <div
             src="."
             alt="Whatsapp icon"
             className="messangers_box_item_icon"
             id="messangers_box_item_whatsapp_icon"
-          />
-          +380 000 00 00
+          ></div>
+          <span className="messanger_box_item_text">+380 000 00 00</span>
         </li>
       </ul>
       <form action="" id="contacts_contactUsForm">
         <h2 className="contacts_contactUsForm_title">
           Напишите нам прямо сейчас
         </h2>
-        <label htmlFor="">Ваше имя:</label>
-        <input type="text" />
-        <label htmlFor="">Ваша почта:</label>
-        <input type="text" />
-        <label htmlFor="">Сообщение:</label>
-        <input type="text" />
+        <div className="contacts_contactUsForm_inputbox">
+          <label htmlFor="" id="contacts_contactsusform_label1">
+            Ваше имя:
+            <input type="text" id="contacts_contactsUsForm_labelinput1"/>
+          </label>
+
+          <label htmlFor="" id="contacts_contactsusform_label2">
+            Ваша почта:
+            <input type="text" id="contacts_contactsUsForm_labelinput2"/>
+          </label>
+
+          <label htmlFor="" id="contacts_contactsusform_label3">
+            Сообщение:
+            <input type="text" id="contacts_contactsUsForm_labelinput3"/>
+          </label>
+        </div>
         <button className="contactUsForm_button">Отправить</button>
       </form>
     </div>
