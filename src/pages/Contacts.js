@@ -50,17 +50,17 @@ function Contacts() {
         <div className="contacts_contactUsForm_inputbox">
           <label htmlFor="" id="contacts_contactsusform_label1">
             Ваше имя:
-            <input type="text" id="contacts_contactsUsForm_labelinput1"/>
+            <input type="text" id="contacts_contactsUsForm_labelinput1" />
           </label>
 
           <label htmlFor="" id="contacts_contactsusform_label2">
             Ваша почта:
-            <input type="text" id="contacts_contactsUsForm_labelinput2"/>
+            <input type="text" id="contacts_contactsUsForm_labelinput2" />
           </label>
 
           <label htmlFor="" id="contacts_contactsusform_label3">
             Сообщение:
-            <input type="text" id="contacts_contactsUsForm_labelinput3"/>
+            <input type="text" id="contacts_contactsUsForm_labelinput3" />
           </label>
         </div>
         <button className="contactUsForm_button">Отправить</button>
