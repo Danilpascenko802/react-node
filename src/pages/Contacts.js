@@ -22,7 +22,10 @@ function Contacts() {
             className="messangers_box_item_icon"
             id="messangers_box_item_telegram_icon"
           ></div>
-          <span className="messanger_box_item_text"> @example</span>
+          <span className="messanger_box_item_text" type="link">
+            {" "}
+            @example
+          </span>
         </li>
         <li className="messangers_box_item" id="messangers_box_item_viber">
           <div
@@ -48,19 +51,19 @@ function Contacts() {
           Напишите нам прямо сейчас
         </h2>
         <div className="contacts_contactUsForm_inputbox">
-          <label htmlFor="" id="contacts_contactsusform_label1">
+          <label htmlFor="" className="contacts_contactsUsForm_label" id="contacts_contactsusform_label1">
             Ваше имя:
-            <input type="text" id="contacts_contactsUsForm_labelinput1" />
+            <input type="text" className="contacts_contactsUsForm_labelinput" id="contacts_contactsUsForm_labelinput1" />
           </label>
 
-          <label htmlFor="" id="contacts_contactsusform_label2">
+          <label htmlFor="" className="contacts_contactsUsForm_label" id="contacts_contactsusform_label2">
             Ваша почта:
-            <input type="text" id="contacts_contactsUsForm_labelinput2" />
+            <input type="text" colws="5" className="contacts_contactsUsForm_labelinput" id="contacts_contactsUsForm_labelinput2" />
           </label>
 
-          <label htmlFor="" id="contacts_contactsusform_label3">
+          <label htmlFor="" className="contacts_contactsUsForm_label" id="contacts_contactsusform_label3">
             Сообщение:
-            <input type="text" id="contacts_contactsUsForm_labelinput3" />
+            <textarea rows={1} type="text" className="contacts_contactsUsForm_labelinput"  id="contacts_contactsUsForm_labelinput3" />
           </label>
         </div>
         <button className="contactUsForm_button">Отправить</button>
