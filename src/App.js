@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 import Main from "./pages/Main";
 import Customers from "./pages/Customers";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/masters" element={<Masters />} />
         <Route path="/сontacts" element={<Contacts />} />
       </Routes>
+      <Footer />
     </>
   );
 }

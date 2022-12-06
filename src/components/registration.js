@@ -3,7 +3,7 @@ function Registration() {
   return (
     <div id="registration_main_box">
       <div id="registration_title" className="text">
-        Registration
+        Registratio
       </div>
       <div id="registration_box">
         <form id="form_box" action="/tutorial/action.html">

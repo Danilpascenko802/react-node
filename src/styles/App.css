@@ -162,7 +162,7 @@ ul {
   border-radius: 10px;
 
   position: relative;
- 
+
   width: 700px;
   height: 400px;
   margin-left: 30%;
@@ -179,11 +179,10 @@ ul {
   display: flex;
   flex-direction: column;
 }
-.contacts_contactsUsForm_label{
+.contacts_contactsUsForm_label {
   position: absolute;
   left: 40px;
   font-size: 18px;
-
 }
 .contacts_contactsUsForm_labelinput {
   position: absolute;
@@ -227,3 +226,13 @@ ul {
   left: 290px;
 }
 /*-----CONTACTS----*/
+
+/*---------FOOTER---------*/
+.footer{
+  background-color: rgb(201, 201, 201);
+
+  width: 100%;
+  height: 400px;
+  
+}
+/*---------FOOTER---------*/
