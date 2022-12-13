@@ -4,9 +4,20 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="footer">
-      <h1>Footer</h1>
-    </div>
+    <nav className="footer">
+      <img src="." alt="logo" />
+      <div className="footer_list">
+        <Link to="/support" className="footer_link">
+          Support
+        </Link>
+        <Link to="/сontacts" className="footer_link">
+          Contacts
+        </Link>
+        <Link to="/terms of use" className="footer_link">
+          Terms os use
+        </Link>
+      </div>
+    </nav>
   );
 }
 
