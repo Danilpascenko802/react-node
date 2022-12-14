@@ -5,15 +5,19 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <nav className="footer">
-      <img src="." alt="logo" />
+      <div className="footer_logo"></div>
       <div className="footer_list">
-        <Link to="/support" className="footer_link">
+        <Link to="/support" className="footer_link" id="footer_support_link">
           Support
         </Link>
-        <Link to="/сontacts" className="footer_link">
+        <Link to="/сontacts" className="footer_link" id="footer_contacts_link">
           Contacts
         </Link>
-        <Link to="/terms of use" className="footer_link">
+        <Link
+          to="/terms of use"
+          className="footer_link"
+          id="footer_termsofuse_link"
+        >
           Terms os use
         </Link>
       </div>
