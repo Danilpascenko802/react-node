@@ -283,8 +283,10 @@ ul {
 
 .footer_link {
   position: relative;
-  left: 100px;
+  left: 150px;
   top: 10px;
   margin-left: 50px;
+  font-size: 20px;
 }
+
 /*---------FOOTER---------*/
