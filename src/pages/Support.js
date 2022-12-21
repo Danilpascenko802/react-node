@@ -1,5 +1,5 @@
 import React from "react";
-
+import styles from "../styles/support.css";
 function Support() {
   return (
     <div className="supportdiv">

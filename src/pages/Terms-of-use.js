@@ -1,5 +1,5 @@
 import React from "react";
-
+import styles from "../styles/termsosuse.css";
 function TermsOfUse() {
   return (
     <div>

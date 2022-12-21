@@ -1,0 +1,133 @@
+#contacts {
+    margin-left: 50px;
+  }
+  .return_button::before {
+    content: "<";
+    margin-right: 10px;
+  }
+  .return_button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+    opacity: 80%;
+  }
+  .contacts_title {
+    margin-top: 70px;
+  }
+  
+  .messangers_box {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+  }
+  
+  .messangers_box_item {
+    border: none;
+    border-radius: 5%;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  .messangers_box_item_icon {
+    background-color: rgb(201, 201, 201);
+    height: 200px;
+    width: 350px;
+    border: none;
+    border-radius: 5%;
+  }
+  .messanger_box_item_text {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  #messangers_box_item_email {
+  }
+  #messangers_box_item_email_icon {
+  }
+  
+  #messangers_box_item_telegram {
+  }
+  #messangers_box_item_telegram_icon {
+  }
+  
+  #messangers_box_item_viber {
+  }
+  #messangers_box_item_viber_icon {
+  }
+  
+  #messangers_box_item_whatsapp {
+  }
+  #messangers_box_item_whatsapp_icon {
+  }
+  
+  #contacts_contactUsForm {
+    background-color: rgb(201, 201, 201);
+    border: none;
+    border-radius: 10px;
+  
+    position: relative;
+  
+    width: 700px;
+    height: 400px;
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .contacts_contactUsForm_title {
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+  }
+  .contacts_contactUsForm_inputbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts_contactsUsForm_label {
+    position: absolute;
+    left: 40px;
+    font-size: 18px;
+  }
+  .contacts_contactsUsForm_labelinput {
+    position: absolute;
+    left: 110px;
+    border-radius: 5px;
+    border: none;
+    width: 430px;
+    height: 40px;
+  }
+  
+  #contacts_contactsusform_label1 {
+    top: 100px;
+  }
+  #contacts_contactsusform_label2 {
+    top: 165px;
+  }
+  #contacts_contactsusform_label3 {
+    top: 230px;
+  }
+  
+  #contacts_contactsUsForm_labelinput1 {
+  }
+  #contacts_contactsUsForm_labelinput2 {
+  }
+  #contacts_contactsUsForm_labelinput3 {
+    font-size: 18px;
+    height: 90px;
+  }
+  
+  .contactUsForm_button {
+    background-color: #fff;
+    border: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: medium;
+    font-size: 20px;
+  
+    position: absolute;
+    top: 340px;
+    left: 290px;
+  }
