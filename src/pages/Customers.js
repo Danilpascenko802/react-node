@@ -2,6 +2,10 @@ import React from "react";
 import styles from "../styles/customers.css";
 
 function Customers() {
-  return <h1 className="customers_title">Заказчики</h1>;
+  return (
+    <div className="customers_title" id="meow">
+      Заказчики
+    </div>
+  );
 }
 export default Customers;
